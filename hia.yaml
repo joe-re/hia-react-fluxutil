@@ -26,3 +26,9 @@ subcommands:
         src: templates/config/babelrc
       - name: webpack.config.js
         src: templates/config/webpack.config.js
+  component:
+    input: true
+    description: create react component.
+    templates:
+      - name: src/components/[input].jsx
+        src: templates/components/Component.jsx
