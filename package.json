@@ -1,8 +1,9 @@
 {
-  "name": "hia-react-fluxutil",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@joe-re/hia-react-fluxutil",
+  "version": "0.0.1",
+  "description": "generator for react + fluxutil + flowtype",
   "main": "index.js",
+  "bin": { "gen": "bin/gen.js" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
