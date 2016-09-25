@@ -1,0 +1,22 @@
+command: gen
+subcommands:
+  init:
+    description: initialize components.
+    input: false
+    templates:
+      - name: src/components/Counter.jsx
+        src: templates/components/Counter.jsx
+      - name: src/actions/CounterAction.js
+        src: templates/actions/CounterAction.js
+      - name: src/stores/CounterStore.js
+        src: templates/stores/CounterStore.js
+      - name: src/containers/CounterContainer.jsx
+        src: templates/containers/CounterContainer.jsx
+      - name: src/routers/AppRouter.jsx
+        src: templates/routers/AppRouter.jsx
+      - name: src/AppDispatcher.js
+        src: templates/AppDispatcher.js
+      - name: src/index.html
+        src: templates/htmls/index.html
+      - name: src/index.jsx
+        src: templates/index.jsx
