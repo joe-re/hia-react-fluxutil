@@ -20,3 +20,9 @@ subcommands:
         src: templates/htmls/index.html
       - name: src/index.jsx
         src: templates/index.jsx
+      - name: .flowconfig
+        src: templates/config/flowconfig
+      - name: .babelrc
+        src: templates/config/babelrc
+      - name: webpack.config.js
+        src: templates/config/webpack.config.js
