@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
   entry: './src/index.jsx',
@@ -6,6 +7,14 @@ const config = {
   output: {
     filename: 'dist/bundle.js',
   },
+
+  plugins: [
+    new HtmlWebpackPlugin({
+      filename: 'dist/index.html',
+      template: 'src/index.html',
+      inject: false
+    })
+  ],
 
   module: {
     loaders: [
