@@ -1,6 +1,6 @@
 {
   "name": "@joe-re/hia-react-fluxutil",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "generator for react + fluxutil + flowtype",
   "main": "index.js",
   "bin": { "gen": "bin/gen.js" },
