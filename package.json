@@ -4,7 +4,7 @@
   "description": "generator for react + fluxutil + flowtype",
   "main": "index.js",
   "bin": {
-    "gen": "bin/gen.js"
+    "hia-flux": "bin/gen.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
