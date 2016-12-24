@@ -57,24 +57,17 @@ $ npm install -D @joe-re/hia-react-fluxutil babel-loader babel-plugin-transform-
 $ hia-flux init
 ```
 
-2. Build your project.
+2. Enter your Project name
 
 ```
-$ webpack
+prompt: project name.: awesome-project
 ```
 
-If you install webpack on local, run bellow command.
+3. Istall dependencies modules and build your project.
 
 ```
-$ ./node_modules/.bin/webpack
-```
-
-3. Open your project via http.
-
-e.g. using [browser-sync](https://github.com/browsersync/browser-sync)
-
-```
-$ browser-sync start --server dist
+$ npm install
+$ npm start
 ```
 
 ## commands
