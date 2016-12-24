@@ -1,4 +1,4 @@
-command: gen
+command: hia-flux
 subcommands:
   init:
     description: initialize components.
@@ -26,6 +26,14 @@ subcommands:
         src: templates/config/babelrc
       - name: webpack.config.js
         src: templates/config/webpack.config.js
+      - name: package.json
+        src: templates/config/package.json
+    args:
+      name:
+        aliase: n
+        description: project name.
+        required: true
+        question: true
   component:
     input: true
     description: create react component.
