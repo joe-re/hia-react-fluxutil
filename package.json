@@ -1,6 +1,6 @@
 {
   "name": "@joe-re/hia-react-fluxutil",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "generator for react + fluxutil + flowtype",
   "main": "index.js",
   "bin": {
@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "hia": "^0.0.5"
   },
